@@ -5,7 +5,7 @@
 
 var doorChoice = 1;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 2;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -35,9 +35,21 @@ if (bearChoice === 1) {
 
 // Questions
 // 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+// This if statement has variable doorChoice asking if it equals 1. this is a boolean/ true/false question. If 1 then it will choose "hat", ifelse, it will choose scarf.
+
 // 2. What variable has a new value assigned to it after the first if statement executes?
+//bearClothing because of the 2 possible variable values of my editted "hat" and "scarf"
+
 // 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+//value would be scarf because it would jump to the else if statement since the value didn't equal 1, as agreed upon earlier in the code.
+
 // 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+//these lines are code for each action from the previous choices provided in 21-23 lines. It starts with an IF statement that has a variable bearChoice asking if the value is 1, and providing a console for if the value is 1. the there are two attached else if statments with variables ==='ing' 2 and 3 which both organizes the actions, and gives clear direction for each possible outcome of the story.
+
 // 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+//"You run as fast as you can into the next room. It's full of snakes!"
+
 // 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+// you tell the bear the hat is too small and he cries.
 // 7. What is your favorite ending?
+// I love the snake ending, not what I expected!
