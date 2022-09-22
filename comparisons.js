@@ -52,21 +52,21 @@ console.log("is numberStudents less than or equal to 21?", numberStudents <= 21)
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-// YOU DO: Explain.
+// YOU DO: Explain. : This is asking if 4 is less then 9. This is true
 
 var books = 3;
 console.log(4 < books);
-// YOU DO: Explain.
+// YOU DO: Explain. this is asking if books is greater than 4. and that is false because it is a 3
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// YOU DO: Explain. This is asking if the friend are greater than the siblings, and the answer is true
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees != meals);
-// YOU DO: Explain.
+// YOU DO: Explain.this is asking if the attendees does not match the meals, which is true
 
 
 // #-------------------
